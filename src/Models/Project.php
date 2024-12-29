@@ -23,12 +23,16 @@ class Project extends AbstractModel
      *
      * @return \Illuminate\Http\Collection
      */
-    public function messageBoard()
+    public function messageBoards()
     {
-        $messageBoard = collect($this->dock)->where('name', 'message_board')
-                                            ->first();
-        $messageBoard->bucket = $this;
-        return new MessageBoard($messageBoard);
+        return collect($this->dock)->filter(function ($dock) {
+            return $dock->name === 'message_board';
+        })->map(function ($messageBoard) {
+            $messageBoard = new MessageBoard($messageBoard);
+//            $messageBoard->bucket = $this;
+
+            return $messageBoard;
+        });
     }
 
     /**

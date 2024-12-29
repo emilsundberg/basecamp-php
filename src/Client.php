@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp;
+namespace Emil\Basecamp;
 
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\HandlerStack;
@@ -60,7 +60,7 @@ class Client
      * Set the basecamp API credentials.
      *
      * @param  array  $api
-     * @return void
+     * @return $this
      */
     public function init($api)
     {
@@ -82,6 +82,15 @@ class Client
                 new ReflectionClass($className), 'newInstance'
             ), array($this->getHttpClient(), $parameters));
         }
+    }
+
+    /**
+     * Entrypoint to the Projects section.
+     *
+     */
+    public function projects()
+    {
+        return new Sections\Projects($this->getHttpClient());
     }
 
     /**

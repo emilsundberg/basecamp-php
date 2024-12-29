@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp;
+namespace Emil\Basecamp;
 
 use Illuminate\Support\Facades\Facade;
 

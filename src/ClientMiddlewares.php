@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp;
+namespace Emil\Basecamp;
 
 use Belvedere\Basecamp\Contracts\BasecampModel;
 use GuzzleHttp\Client as Guzzle;

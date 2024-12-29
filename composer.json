@@ -1,6 +1,6 @@
 {
-    "name": "coopbelvedere/laravel-basecamp-api",
-    "description": "API Wrapper for Basecamp3",
+    "name": "emilsundberg/basecamp-php",
+    "description": "API Wrapper for Basecamp 4",
     "require": {
         "php": ">=7.0",
         "ext-fileinfo": "*",
@@ -13,13 +13,17 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Emil Sundberg",
+            "email": "mbastien@coopbelvedere.com"
+        },
+        {
             "name": "Martin Bastien",
             "email": "mbastien@coopbelvedere.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Belvedere\\Basecamp\\": "src/"
+            "Emil\\Basecamp\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -28,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Belvedere\\Basecamp\\BasecampServiceProvider"
+                "Emil\\Basecamp\\BasecampServiceProvider"
             ],
             "aliases": {
-                "Basecamp": "Belvedere\\Basecamp\\BasecampFacade"
+                "Basecamp": "Emil\\Basecamp\\BasecampFacade"
             }
         }
     }
