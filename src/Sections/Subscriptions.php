@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Subscription;
+use Emil\Basecamp\Models\Subscription;
 use GuzzleHttp\Client;
 
 class Subscriptions extends AbstractSection
@@ -35,7 +35,7 @@ class Subscriptions extends AbstractSection
     /**
      * Show subscription info for a recording.
      *
-     * @return \Belvedere\Basecamp\Models\Subscription
+     * @return \Emil\Basecamp\Models\Subscription
      */
     public function show()
     {
@@ -47,7 +47,7 @@ class Subscriptions extends AbstractSection
     /**
      * Subscribe the current user.
      *
-     * @return \Belvedere\Basecamp\Models\Subscription
+     * @return \Emil\Basecamp\Models\Subscription
      */
     public function subscribe()
     {
@@ -70,7 +70,7 @@ class Subscriptions extends AbstractSection
      * Update the subscription.
      *
      * @param  array  $data
-     * @return \Belvedere\Basecamp\Models\Subscription
+     * @return \Emil\Basecamp\Models\Subscription
      */
     public function update(array $data)
     {

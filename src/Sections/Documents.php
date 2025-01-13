@@ -1,9 +1,9 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Document;
-use Belvedere\Basecamp\Sections\Traits\Recording;
+use Emil\Basecamp\Models\Document;
+use Emil\Basecamp\Sections\Traits\Recording;
 
 class Documents extends AbstractSection
 {

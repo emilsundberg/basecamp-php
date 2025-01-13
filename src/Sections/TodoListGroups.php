@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\TodoListGroup;
+use Emil\Basecamp\Models\TodoListGroup;
 
 class TodoListGroups extends AbstractSection
 {

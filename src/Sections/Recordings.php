@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Recording;
+use Emil\Basecamp\Models\Recording;
 
 class Recordings extends AbstractSection
 {

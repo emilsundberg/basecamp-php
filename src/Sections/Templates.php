@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Template;
+use Emil\Basecamp\Models\Template;
 
 class Templates extends AbstractSection
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp\Models;
+namespace Emil\Basecamp\Models;
 
 use Basecamp;
 

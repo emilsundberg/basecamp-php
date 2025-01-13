@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Inbox;
+use Emil\Basecamp\Models\Inbox;
 
 class Inboxes extends AbstractSection
 {

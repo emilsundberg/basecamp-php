@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Needle;
+use Emil\Basecamp\Models\Needle;
 
 class Needles extends AbstractSection
 {
@@ -10,7 +10,7 @@ class Needles extends AbstractSection
      * Get the needle.
      *
      * @param  int  $id
-     * @return \Belvedere\Basecamp\Models\Needle
+     * @return \Emil\Basecamp\Models\Needle
      */
     public function show($id)
     {

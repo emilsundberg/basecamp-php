@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\ClientCorrespondence;
+use Emil\Basecamp\Models\ClientCorrespondence;
 
 class ClientCorrespondences extends AbstractSection
 {

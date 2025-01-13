@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\TodoSet;
+use Emil\Basecamp\Models\TodoSet;
 
 class TodoSets extends AbstractSection
 {

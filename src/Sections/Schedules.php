@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Schedule;
+use Emil\Basecamp\Models\Schedule;
 
 class Schedules extends AbstractSection
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp\Models\Traits;
+namespace Emil\Basecamp\Models\Traits;
 
 use Basecamp;
 

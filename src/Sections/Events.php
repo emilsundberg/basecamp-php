@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Event;
+use Emil\Basecamp\Models\Event;
 
 class Events extends AbstractSection
 {

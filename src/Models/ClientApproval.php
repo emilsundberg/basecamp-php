@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Models;
+namespace Emil\Basecamp\Models;
 
-use Belvedere\Basecamp\Models\Traits\Replyable;
+use Emil\Basecamp\Models\Traits\Replyable;
 
 class ClientApproval extends AbstractModel
 {

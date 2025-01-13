@@ -2,7 +2,7 @@
 
 namespace Emil\Basecamp;
 
-use Belvedere\Basecamp\Contracts\BasecampModel;
+use Emil\Basecamp\Contracts\BasecampModel;
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Request;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Person;
+use Emil\Basecamp\Models\Person;
 
 class People extends AbstractSection
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Project;
+use Emil\Basecamp\Models\Project;
 
 class Projects extends AbstractSection
 {

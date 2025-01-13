@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\ClientApproval;
+use Emil\Basecamp\Models\ClientApproval;
 
 class ClientApprovals extends AbstractSection
 {

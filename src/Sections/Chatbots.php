@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Chatbot;
+use Emil\Basecamp\Models\Chatbot;
 
 class Chatbots extends AbstractSection
 {

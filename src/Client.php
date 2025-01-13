@@ -93,6 +93,11 @@ class Client
         return new Sections\Projects($this->getHttpClient());
     }
 
+    public function people()
+    {
+        return new Sections\People($this->getHttpClient());
+    }
+
     /**
      * Get the Http Client.
      *

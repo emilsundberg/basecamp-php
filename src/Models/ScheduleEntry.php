@@ -1,9 +1,9 @@
 <?php
 
-namespace Belvedere\Basecamp\Models;
+namespace Emil\Basecamp\Models;
 
 use Basecamp;
-use Belvedere\Basecamp\Models\Traits\Commentable;
+use Emil\Basecamp\Models\Traits\Commentable;
 
 class ScheduleEntry extends Recording
 {

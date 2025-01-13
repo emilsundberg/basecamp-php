@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp\Models;
+namespace Emil\Basecamp\Models;
 
 use Basecamp;
 
@@ -19,7 +19,7 @@ class Recording extends AbstractModel
     /**
      * Get the subscription info.
      *
-     * @return \Belvedere\Basecamp\Models\Subscription
+     * @return \Emil\Basecamp\Models\Subscription
      */
     public function subscriptions()
     {

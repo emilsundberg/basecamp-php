@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\IndexCollection;
+use Emil\Basecamp\IndexCollection;
 use GuzzleHttp\Client;
 
 abstract class AbstractSection

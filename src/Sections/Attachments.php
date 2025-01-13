@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Attachment;
+use Emil\Basecamp\Models\Attachment;
 
 class Attachments extends AbstractSection
 {

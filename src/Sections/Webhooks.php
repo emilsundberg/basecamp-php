@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Webhook;
+use Emil\Basecamp\Models\Webhook;
 
 class Webhooks extends AbstractSection
 {

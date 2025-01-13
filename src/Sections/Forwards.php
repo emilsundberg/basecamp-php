@@ -1,9 +1,9 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Forward;
-use Belvedere\Basecamp\Sections\Traits\Recording;
+use Emil\Basecamp\Models\Forward;
+use Emil\Basecamp\Sections\Traits\Recording;
 
 class Forwards extends AbstractSection
 {

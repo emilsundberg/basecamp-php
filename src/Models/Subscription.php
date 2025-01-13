@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp\Models;
+namespace Emil\Basecamp\Models;
 
 use Basecamp;
 
@@ -9,7 +9,7 @@ class Subscription extends AbstractModel
     /**
      * Subscribe the current user.
      *
-     * @return \Belvedere\Basecamp\Models\Subscription
+     * @return \Emil\Basecamp\Models\Subscription
      */
     public function subscribe()
     {

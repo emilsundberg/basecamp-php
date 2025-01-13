@@ -1,9 +1,9 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Campfire;
-use Belvedere\Basecamp\Models\CampfireLine;
+use Emil\Basecamp\Models\Campfire;
+use Emil\Basecamp\Models\CampfireLine;
 
 class Campfires extends AbstractSection
 {

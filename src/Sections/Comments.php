@@ -1,9 +1,9 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Comment;
-use Belvedere\Basecamp\Sections\Traits\Recording;
+use Emil\Basecamp\Models\Comment;
+use Emil\Basecamp\Sections\Traits\Recording;
 
 class Comments extends AbstractSection
 {

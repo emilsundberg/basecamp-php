@@ -1,9 +1,9 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Upload;
-use Belvedere\Basecamp\Sections\Traits\Recording;
+use Emil\Basecamp\Models\Upload;
+use Emil\Basecamp\Sections\Traits\Recording;
 
 class Uploads extends AbstractSection
 {

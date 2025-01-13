@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Vault;
+use Emil\Basecamp\Models\Vault;
 
 class Vaults extends AbstractSection
 {

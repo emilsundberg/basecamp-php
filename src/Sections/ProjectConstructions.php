@@ -1,6 +1,6 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
 class ProjectConstructions extends AbstractSection
 {

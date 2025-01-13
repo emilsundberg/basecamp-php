@@ -1,8 +1,8 @@
 <?php
 
-namespace Belvedere\Basecamp\Sections;
+namespace Emil\Basecamp\Sections;
 
-use Belvedere\Basecamp\Models\Questionnaire;
+use Emil\Basecamp\Models\Questionnaire;
 
 class Questionnaires extends AbstractSection
 {
