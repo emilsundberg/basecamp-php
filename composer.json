@@ -1,5 +1,5 @@
 {
-    "name": "coopbelvedere/laravel-basecamp-api",
+    "name": "emilsundberg/basecamp-php",
     "description": "API Wrapper for Basecamp3",
     "require": {
         "php": ">=7.0",
